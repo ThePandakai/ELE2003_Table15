@@ -1,8 +1,8 @@
-LTspice 24.1.1 for Windows
-Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\partie1\inverseur.net
-Start Time: Tue Sep 23 14:55:54 2025
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\partie1\inverseur.net
+Start Time: Tue Sep 23 15:00:06 2025
 solver = Normal
-Maximum thread count: 8
+Maximum thread count: 16
 tnom = 27
 temp = 27
 method = trap
@@ -25,9 +25,9 @@ vernier = 0.000488281
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.420 seconds.
+Total elapsed time: 1.002 seconds.
 
 Files loaded:
-C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\partie1\inverseur.net
-C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\TL082.lib\TL082.301
+C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\partie1\inverseur.net
+C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\TL082.lib\TL082.301
 
