@@ -16,7 +16,7 @@ xline(w3,'r--','LineWidth',1.5);
 %Traçage du diagrame
 bode(H)
 
-Jv'eux partir chez moi 
+Jv'eux partir chez moi Pour retrouver MAYA!!!!
 
 
 
