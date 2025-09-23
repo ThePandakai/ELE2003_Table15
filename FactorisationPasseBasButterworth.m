@@ -16,10 +16,6 @@ xline(w3,'r--','LineWidth',1.5);
 %Traçage du diagrame
 bode(H)
 
-Jv'eux partir chez moi Pour retrouver MAYA!!!!
-
-
-
 [mag, ~] = bode(H, [wc w3]);
 mag = squeeze(mag);
 mag_db = 20*log10(mag);
