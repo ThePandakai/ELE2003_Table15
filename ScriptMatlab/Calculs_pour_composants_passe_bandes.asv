@@ -2,16 +2,16 @@
 
 %% Pour le H1, donc le passe-bas
 % valeurs feuille Allan (vérifiées)
-cste_s2 = 1.38e-4;
+cste_s2 = 1.38e-11;
 cste_s = 1.6e-7;
 
 % trucs posé 
 q = 1;
-C = 47e-9;
-m = 4.68; % posé pour avoir un C qui est dans notre kit 
+C = 2.2e-9;
+m = 2; % posé pour avoir un C qui est dans notre kit 
 
 % Calculs des valeurs
-R = sqrt(cste_s2/(C^2 * m * q)); % donne environ 115k
+R = sqrt(cste_s2/(C^2 * m * q)); % donne environ 1.19k
 
 
 
@@ -25,9 +25,9 @@ cste2_s = 1.43e-7;
 C2 = 220e-9;
 
 % calculs des valeurs
-R2 = sqrt(numerateur)/C2; % donne environ 15.3
+R2 = sqrt(numerateur)/C2; % donne environ 15.28
 q2 = cste2_s/(R*C*2);
-m2 = cste2_s2/(q*R^2 * C^2 );
+m2 = 
 
 R_du_haut = R2/m2; %environ 39.9 MOhm
 R_du_bas = R2/q2; %environ 1.16 MOhm

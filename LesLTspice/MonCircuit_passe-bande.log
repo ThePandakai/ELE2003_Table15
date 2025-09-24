@@ -1,6 +1,6 @@
 LTspice 24.1.1 for Windows
 Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\MonCircuit_passe-bande.net
-Start Time: Tue Sep 23 19:51:59 2025
+Start Time: Tue Sep 23 20:46:35 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -33,7 +33,7 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.345 seconds.
+Total elapsed time: 0.349 seconds.
 
 Files loaded:
 C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\MonCircuit_passe-bande.net
