@@ -7,11 +7,17 @@ cste_s = 1.6e-7;
 
 % trucs posé 
 q = 1;
-C = 2.2e-9;
-m = 2; % posé pour avoir un C qui est dans notre kit 
+C = 100e-12;
+
+
+r=cste_s/(2*C)
+m3=cste_s2/(C^2*r^2*q)
+
+m = 30; % posé pour avoir un C qui est dans notre kit 
 
 % Calculs des valeurs
-R = sqrt(cste_s2/(C^2 * m * q)); % donne environ 1.19k
+R = sqrt(cste_s2/(C^2 * m * q)) % donne environ 1.19k
+C2=m3*C
 
 
 
@@ -22,14 +28,14 @@ cste2_s2 = 1.13e-11;
 cste2_s = 1.43e-7;
 
 % trucs posés
-C2 = 2.2e-9;
+C2 = 1e-9;
 
 % calculs des valeurs
-R2 = sqrt(numerateur)/C2; % donne environ 15.28
-q2 = cste2_s/(R*C*2);
-m2 = 1/q2;
+R2 = sqrt(numerateur)/C2 % donne environ 15.28
+q2 = cste2_s/(R2*C2*2)
+m2 = 1/q2
 
-R_du_haut = R2/m2; %environ 39.9 MOhm
+R_du_haut = R2/m2 %environ 39.9 MOhm
 R_du_bas = R2/q2 %environ 1.16 MOhm
 
 %% Faire un graph aussi pcq je suis le seul à ne pas en avoir fait :(
