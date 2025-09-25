@@ -1,6 +1,6 @@
 LTspice 24.1.5 for Windows
-Circuit: C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\Draft1.net
-Start Time: Thu Sep 25 13:10:59 2025
+Circuit: C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\MonCircuit_passe-bande.net
+Start Time: Wed Sep 24 18:06:51 2025
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -33,9 +33,9 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.430 seconds.
+Total elapsed time: 0.495 seconds.
 
 Files loaded:
-C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\Draft1.net
+C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\MonCircuit_passe-bande.net
 C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\TL082.lib\TL082.301
 

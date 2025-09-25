@@ -2,8 +2,8 @@
 % Constantes
 w0 = 3000*15*2*pi;
 %Calcul des étages
-e1=[1 1.153e04 7.208e10];
-e2 =[1 1.279e04 8.867e10];
+e1=[1 1.149e04 7.637e10];
+e2 =[1 1.282e04 8.793e10];
 format short e
 e1_norm = e1./(e1(3)/2);
 e2_norm = e2./(e2(3)/2);
@@ -28,6 +28,7 @@ s1=e1_norm(2);
 %R en fonction de C
 c=330e-12;
 R=sqrt(s2/c^2);
+R_sim=14962
 fprintf('C: %.2e\nR: %.0f \n',c,R);
 
 %k proche de 4
@@ -42,6 +43,8 @@ fprintf('Numerateur: %.2e\n',num);
 %Verif
 verif=[(R*c)^2-e1_norm(1) R*c*(4-k)-e1_norm(2)];
 fprintf("L'erreur du premier terme est: %.2e et du deuximeme est: %.2e\n", verif.')
+(R_sim*c)^2
+e1_norm(1)
 %% Etage 2
 fprintf('---------------- Etage 2 ----------------\n');
 s=tf('s');
@@ -58,6 +61,7 @@ s1=e2_norm(2);
 %R en fonction de C
 c=330e-12;
 R=sqrt(s2/c^2);
+R_sim=13392
 fprintf('C: %.2e\nR: %.0f \n',c,R);
 
 %K
@@ -77,4 +81,5 @@ fprintf('Gain: %.2e\n',Gain);
 RG1 =1e3;
 RG2=R1*(1-Gain)/Gain;
 fprintf('RG2: %.0f\n',RG2);
-Verif_num=num1*num
+Verif_num=num1*num2*Gain - numerateur;
+fprintf("L'erreur du numerateur est: %.2e", Verif_num);

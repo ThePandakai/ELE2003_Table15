@@ -2,8 +2,8 @@
 % Constantes
 w0 = 3000*15*2*pi;
 %Calcul des étages
-e1=[1 1.149e04 7.637e10];
-e2 =[1 1.282e04 8.793e10];
+e1=[1 1.153e04 7.174e10];
+e2 =[1 1.279e04 8.883e10];
 format short e
 e1_norm = e1./(e1(3)/2);
 e2_norm = e2./(e2(3)/2);
