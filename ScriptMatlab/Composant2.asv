@@ -1,0 +1,80 @@
+%% Start-up
+% Constantes
+w0 = 3000*15*2*pi;
+%Calcul des étages
+e1=[1 1.153e04 7.208e10];
+e2 =[1 1.279e04 8.867e10];
+format short e
+e1_norm = e1./(e1(3)/2);
+e2_norm = e2./(e2(3)/2);
+numerateur = 1.42e9/(e1(3)/2*e2(3)/2);
+
+fprintf('Etage 1: %.2e %.2e %d\n',e1_norm.');
+fprintf('Etage 2: %.2e %.2e %d\n',e2_norm.');
+fprintf('Numerateur: %.2e \n',numerateur);
+%% Étage 1
+fprintf('---------------- Etage 1 ----------------\n');
+s=tf('s');
+H1=1/(s^2*e1_norm(1) +s*e1_norm(2) +2);
+
+figure();
+xline(w0,'r--','LineWidth',1.5);
+hold on
+bode(H1);
+
+s2= e1_norm(1);
+s1=e1_norm(2);
+
+%R en fonction de C
+c=330e-12;
+R=sqrt(s2/c^2);
+fprintf('C: %.2e\nR: %.0f \n',c,R);
+
+%k proche de 4
+R1=1e3;
+k=4-s1/(R*c);
+R2=R1*(k-1);
+fprintf('R1: %d R2: %.0f K: %.2f \n',R1,R2,k);
+%Trouver le num
+num1=k*R*c;
+fprintf('Numerateur: %.2e\n',num);
+
+%Verif
+verif=[(R*c)^2-e1_norm(1) R*c*(4-k)-e1_norm(2)];
+fprintf("L'erreur du premier terme est: %.2e et du deuximeme est: %.2e\n", verif.')
+%% Etage 2
+fprintf('---------------- Etage 2 ----------------\n');
+s=tf('s');
+H2=1/(s^2*e2_norm(1) +s*e2_norm(2) +2);
+
+figure();
+xline(w0,'r--','LineWidth',1.5);
+hold on
+bode(H2);
+
+s2= e2_norm(1);
+s1=e2_norm(2);
+
+%R en fonction de C
+c=330e-12;
+R=sqrt(s2/c^2);
+fprintf('C: %.2e\nR: %.0f \n',c,R);
+
+%K
+R1=1e3;
+k=4-s1/(R*c);
+R2=R1*(k-1);
+fprintf('R1: %d R2: %.0f K: %.2f \n',R1,R2,k);
+%Trouver le num
+num2=k*R*c;
+fprintf('Numerateur: %.2e\n',num);
+verif=[(R*c)^2-e2_norm(1) R*c*(4-k)-e2_norm(2)];
+fprintf("L'erreur du premier terme est: %.2e et du deuximeme est: %.2e\n", verif.')
+%% Étage 3
+fprintf('---------------- Etage 3 ----------------\n');
+Gain=numerateur/(num1*num2);
+fprintf('Gain: %.2e\n',Gain);
+RG1 =1e3;
+RG2=R1*(1-Gain)/Gain;
+fprintf('RG2: %.0f\n',RG2);
+Verif_num=num1*num
