@@ -1,6 +1,6 @@
 LTspice 24.1.1 for Windows
-Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\TP_projet_équipe_15\TP1\LTspice\non_inverseur.net
-Start Time: Tue Sep  2 16:00:57 2025
+Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\partie 1\non-inverseur\non_inverseur.net
+Start Time: Fri Sep 26 14:28:49 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -27,9 +27,9 @@ vernier = 0.000488281
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.339 seconds.
+Total elapsed time: 0.635 seconds.
 
 Files loaded:
-C:\Users\jimtr\OneDrive - polymtl\Projet\TP_projet_équipe_15\TP1\LTspice\non_inverseur.net
-C:\Users\jimtr\OneDrive - polymtl\Projet\TP_projet_équipe_15\TP1\LTspice\TL082.lib\TL082.301
+C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\partie 1\non-inverseur\non_inverseur.net
+C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\TL082.lib\TL082.301
 
