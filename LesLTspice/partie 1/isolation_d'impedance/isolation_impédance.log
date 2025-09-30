@@ -1,0 +1,15 @@
+LTspice 24.1.1 for Windows
+Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\partie 1\isolation_d'impedance\isolation_impédance.net
+Start Time: Sun Sep 28 21:44:25 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.099 seconds.
+
+Files loaded:
+C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\partie 1\isolation_d'impedance\isolation_impédance.net
+C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\TL082.lib\TL082.301
+
