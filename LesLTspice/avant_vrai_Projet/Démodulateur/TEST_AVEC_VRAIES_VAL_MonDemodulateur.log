@@ -1,6 +1,6 @@
 LTspice 24.1.1 for Windows
 Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\avant_vrai_Projet\Démodulateur\TEST_AVEC_VRAIES_VAL_MonDemodulateur.net
-Start Time: Tue Oct 28 12:09:28 2025
+Start Time: Thu Oct 30 17:24:14 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -48,7 +48,7 @@ Source Step = 96.2121%
 vernier = 0.5625
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 4.078 seconds.
+Total elapsed time: 2.682 seconds.
 
 Files loaded:
 C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\avant_vrai_Projet\Démodulateur\TEST_AVEC_VRAIES_VAL_MonDemodulateur.net
