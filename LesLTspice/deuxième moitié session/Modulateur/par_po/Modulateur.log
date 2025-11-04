@@ -1,0 +1,18 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\pojeu\OneDrive\Bureau\Devoir\ELE2003_Table15\LesLTspice\Projet\Modulateur\Modulateur.net
+Start Time: Tue Sep 30 14:21:37 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node n006 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 1.416 seconds.
+
+Files loaded:
+C:\Users\pojeu\OneDrive\Bureau\Devoir\ELE2003_Table15\LesLTspice\Projet\Modulateur\Modulateur.net
+C:\Users\pojeu\AppData\Local\LTspice\lib\cmp\standard.jft
+C:\Users\pojeu\OneDrive\Bureau\Devoir\ELE2003_Table15\LesLTspice\TL082.lib\TL082.301
+
