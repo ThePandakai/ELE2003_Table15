@@ -1,6 +1,6 @@
 LTspice 24.1.1 for Windows
 Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\avant_vrai_Projet\Démodulateur\MonDemodulateur.net
-Start Time: Thu Oct 30 15:28:16 2025
+Start Time: Thu Oct 30 20:46:06 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -48,7 +48,7 @@ Source Step = 96.2121%
 vernier = 0.5625
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 6.177 seconds.
+Total elapsed time: 9.899 seconds.
 
 Files loaded:
 C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\avant_vrai_Projet\Démodulateur\MonDemodulateur.net
