@@ -1,0 +1,91 @@
+{
+	"Name": "Band-pass",
+	"Description": "band-pass",
+	"Tool": "FW",
+	"Version": "1.3",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications",
+			"components",
+			"tolerances",
+			"next-steps"
+		],
+		"filterType": "bandPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 20000,
+			"stopbandAttenuation": -20,
+			"stopbandFrequency": 40000,
+			"filterResponseValue": 0,
+			"filterResponseSlider": "50",
+			"centerFrequency": 47500
+		},
+		"components": {
+			"vsPlus": 15,
+			"vsMinus": -15,
+			"optimization": "RecommendedSpecificComponents",
+			"optimizationPreference": "specific",
+			"compensateForGbw": false,
+			"preferredAlgorithms": {
+				"sallenKey|lowPass": "lowpassV2"
+			},
+			"referenceVoltage": 0,
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 80,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "ADA4084-2"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 80,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "ADA4084-2"
+				},
+				{
+					"stageLetter": "C",
+					"componentSizing": 80,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "ADA4084-2"
+				},
+				{
+					"stageLetter": "D",
+					"componentSizing": 80,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "ADA4084-2"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		"tolerances": {
+			"resistorTolerance": "5%",
+			"capacitorTolerance": "10%",
+			"inductorTolerance": "5%",
+			"opAmpGbwTolerance": "20%",
+			"resistorPreferredSeries": "E96",
+			"capacitorPreferredSeries": "E24",
+			"inductorPreferredSeries": "E12"
+		},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2025-10-21 03:13:47 PM",
+	"UpdatedDate": "2025-10-21 03:13:47 PM"
+}

@@ -1,0 +1,15 @@
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\avant_vrai_Projet\Modulateur\Draft1.net
+Start Time: Tue Oct 21 13:38:08 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.148 seconds.
+
+Files loaded:
+C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\avant_vrai_Projet\Modulateur\Draft1.net
+C:\Users\pojeu\Desktop\École\A25\ELE2003\ELE2003_Table15\LesLTspice\TL082.lib\TL082.301
+
