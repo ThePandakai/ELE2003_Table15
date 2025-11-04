@@ -1,14 +1,14 @@
 LTspice 24.1.1 for Windows
 Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\deuxième moitié session\THE LTspice\MonCircuit.net
-Start Time: Mon Nov  3 20:32:02 2025
+Start Time: Mon Nov  3 22:11:24 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
 temp = 27
 method = trap
 WARNING: Node p004 is floating.
-WARNING: Node n039 is floating.
-WARNING: Node n034 is floating.
+WARNING: Node n047 is floating.
+WARNING: Node n042 is floating.
 
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
@@ -34,25 +34,12 @@ Gmin stepping failed
 
 Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
-Source Step = 9.84848%
-Source Step = 17.4242%
-Source Step = 25%
-Source Step = 32.5758%
-Source Step = 40.1515%
-vernier = 0.375
-Source Step = 50.7576%
-Source Step = 62.1212%
-Source Step = 73.4848%
-Source Step = 84.8485%
-Source Step = 96.2121%
-vernier = 0.5625
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 3.682 seconds.
-
-Simulation Failed: 
-
-Total elapsed time: 3.682 seconds.
+Total elapsed time: 1.147 seconds.
 
 Files loaded:
 C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\deuxième moitié session\THE LTspice\MonCircuit.net
