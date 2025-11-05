@@ -1,6 +1,6 @@
 LTspice 24.1.1 for Windows
 Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\deuxième moitié session\THE LTspice\MonCircuit.net
-Start Time: Tue Nov  4 11:50:41 2025
+Start Time: Tue Nov  4 18:56:24 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -14,20 +14,18 @@ WARNING: Node nc_03 is floating.
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
-Increasing initial diagonal Gmin to 100
-Gmin = 100
+Gmin = 10
 vernier = 0.5
 vernier = 0.25
-Gmin = 34.2672
 vernier = 0.125
+Gmin = 5.5165
 vernier = 0.0625
 vernier = 0.03125
 vernier = 0.015625
-Gmin = 33.0995
 vernier = 0.0078125
+Gmin = 5.48432
 vernier = 0.00390625
 vernier = 0.00195312
-Gmin = 32.9705
 vernier = 0.000976562
 vernier = 0.000488281
 Gmin = 0
@@ -40,7 +38,7 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 2.112 seconds.
+Total elapsed time: 3.160 seconds.
 
 Files loaded:
 C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\deuxième moitié session\THE LTspice\MonCircuit.net
