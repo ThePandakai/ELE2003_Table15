@@ -1,6 +1,6 @@
 LTspice 24.1.1 for Windows
 Circuit: C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\deuxième moitié session\THE LTspice\MonCircuit.net
-Start Time: Thu Nov  6 12:23:00 2025
+Start Time: Thu Nov 13 14:03:14 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -38,7 +38,7 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 3.743 seconds.
+Total elapsed time: 2.577 seconds.
 
 Files loaded:
 C:\Users\jimtr\OneDrive - polymtl\Projet\ELE2003_Table15\LesLTspice\deuxième moitié session\THE LTspice\MonCircuit.net
